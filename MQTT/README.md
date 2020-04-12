@@ -8,6 +8,8 @@ Install the latest Python for IBM Watson IoT Platform library
 pip install wiotp-sdk
 ```
 
+![Fig1](https://github.com/jonathanrjpereira/IBM-Watson-Labs/blob/master/MQTT/img/Fig1.PNG)
+
 ## Device
 Device-side programming consists of three parts:
 
@@ -54,8 +56,12 @@ In this section, we demonstrate how to run the Python programs to send an event 
 First, start the application to listen for events for a device queue.
 [application/app_event_recd.py](https://github.com/jonathanrjpereira/IBM-Watson-Labs/blob/master/MQTT/application/app_event_recd.py)
 
+![Fig2](https://github.com/jonathanrjpereira/IBM-Watson-Labs/blob/master/MQTT/img/Fig2.PNG)
+
 The application waits. Next, run the device program to send an event from the device.
 [device/dev_event_send.py](https://github.com/jonathanrjpereira/IBM-Watson-Labs/blob/master/MQTT/device/dev_event_send.py)
+
+![Fig3](https://github.com/jonathanrjpereira/IBM-Watson-Labs/blob/master/MQTT/img/Fig3.PNG)
 
 The application should receive the event and print it in the console
 
@@ -64,9 +70,13 @@ First, start the device program to listen for commands for this device.
 
 [device/dev_cmd_recd.py](https://github.com/jonathanrjpereira/IBM-Watson-Labs/blob/master/MQTT/device/dev_cmd_recd.py)
 
+![Fig4](https://github.com/jonathanrjpereira/IBM-Watson-Labs/blob/master/MQTT/img/Fig4.PNG)
+
 The device waits. Next, run the application to send a command for the device.
 
 [application/app_cmd_send.py](https://github.com/jonathanrjpereira/IBM-Watson-Labs/blob/master/MQTT/application/app_cmd_send.py)
+
+![Fig5](https://github.com/jonathanrjpereira/IBM-Watson-Labs/blob/master/MQTT/img/Fig5.PNG)
 
 The device should receive the command and print it in the console.
 

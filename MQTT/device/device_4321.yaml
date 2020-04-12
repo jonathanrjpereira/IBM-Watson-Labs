@@ -1,0 +1,18 @@
+identity:
+    orgId: <organization ID>
+    typeId: test
+    deviceId: 4321
+auth:
+    token: <authentication token>
+options:
+    domain: internetofthings.ibmcloud.com
+    logLevel: debug
+    http:
+        verify: True
+    mqtt:
+        port: 8883
+        transport: tcp
+        cleanStart: true
+        sessionExpiry: 7200
+        keepAlive: 120
+        caFile: C:/Users/Jonathan/Documents/GitHub/IBM-Watson-Labs/MQTT/messaging.pem

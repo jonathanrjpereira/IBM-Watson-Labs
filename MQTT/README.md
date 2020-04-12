@@ -1,3 +1,4 @@
+
 *All the code and other information is from the [Explore the Internet of Things Platform service](https://developer.ibm.com/tutorials/cl-mqtt-bluemix-iot-node-red-app/) Tutorial*
 
 
@@ -66,6 +67,7 @@ The application waits. Next, run the device program to send an event from the de
 The application should receive the event and print it in the console
 
 **Commands**
+
 First, start the device program to listen for commands for this device.
 
 [device/dev_cmd_recd.py](https://github.com/jonathanrjpereira/IBM-Watson-Labs/blob/master/MQTT/device/dev_cmd_recd.py)
@@ -80,3 +82,12 @@ The device waits. Next, run the application to send a command for the device.
 
 The device should receive the command and print it in the console.
 
+## References
+1. [Explore the Internet of Things Platform Service](https://developer.ibm.com/tutorials/cl-mqtt-bluemix-iot-node-red-app/)
+2. [MQTT IoT Watson Platform - Michael Yuan](https://github.com/juntao/mqtt-watson-iot-platform-sample/tree/master/python/device)
+
+
+## Contributing
+Are you a programmer, engineer or hobbyist who has a great idea for a new feature in this project? Maybe you have a good idea for a bug fix? Feel free to grab our code & schematics from Github and tinker with it. Don't forget to smash those ⭐️ & Pull Request buttons. [Contributor List](https://github.com/jonathanrjpereira/IBM-Watson-Labs/graphs/contributors)
+
+Made with ❤️ by [Jonathan Pereira](https://github.com/jonathanrjpereira)

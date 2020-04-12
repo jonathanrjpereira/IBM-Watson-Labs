@@ -4,6 +4,7 @@
 
 
 **Prerequisites**
+
 Install the latest Python for IBM Watson IoT Platform library
 
  ```

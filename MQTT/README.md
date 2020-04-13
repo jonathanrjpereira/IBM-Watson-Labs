@@ -1,8 +1,11 @@
+![Banner](https://github.com/jonathanrjpereira/IBM-Watson-Labs/blob/master/MQTT/img/Banner.svg)
+
 
 *All the code and other information is from the [Explore the Internet of Things Platform service](https://developer.ibm.com/tutorials/cl-mqtt-bluemix-iot-node-red-app/) Tutorial*
 
 
 **Prerequisites**
+
 Install the latest Python for IBM Watson IoT Platform library
 
  ```
@@ -69,13 +72,11 @@ The application should receive the event and print it in the console
 **Commands**
 
 First, start the device program to listen for commands for this device.
-
 [device/dev_cmd_recd.py](https://github.com/jonathanrjpereira/IBM-Watson-Labs/blob/master/MQTT/device/dev_cmd_recd.py)
 
 ![Fig4](https://github.com/jonathanrjpereira/IBM-Watson-Labs/blob/master/MQTT/img/Fig4.PNG)
 
 The device waits. Next, run the application to send a command for the device.
-
 [application/app_cmd_send.py](https://github.com/jonathanrjpereira/IBM-Watson-Labs/blob/master/MQTT/application/app_cmd_send.py)
 
 ![Fig5](https://github.com/jonathanrjpereira/IBM-Watson-Labs/blob/master/MQTT/img/Fig5.PNG)
@@ -85,6 +86,7 @@ The device should receive the command and print it in the console.
 ## References
 1. [Explore the Internet of Things Platform Service](https://developer.ibm.com/tutorials/cl-mqtt-bluemix-iot-node-red-app/)
 2. [MQTT IoT Watson Platform - Michael Yuan](https://github.com/juntao/mqtt-watson-iot-platform-sample/tree/master/python/device)
+3. [Banner Logo References](https://www.ibm.com/design/language/iconography/pictograms/library)
 
 
 ## Contributing
